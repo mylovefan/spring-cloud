@@ -1,0 +1,51 @@
+{
+  "groups": [{
+    "name": "com.bbt.authorization.interceptor",
+    "type": "com.bbt.authorization.interceptor.AuthorizationInterceptor",
+    "sourceType": "com.bbt.authorization.InterceptorConfig",
+    "sourceMethod": "authorizationInterceptor()"
+  }],
+  "properties": [
+    {
+      "name": "com.bbt.authorization.interceptor.debug",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor"
+    },
+    {
+      "name": "com.bbt.authorization.interceptor.http-header-name",
+      "type": "java.lang.String",
+      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor"
+    },
+    {
+      "name": "com.bbt.authorization.interceptor.http-header-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor"
+    },
+    {
+      "name": "com.bbt.authorization.interceptor.test-account",
+      "type": "java.lang.String",
+      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor"
+    },
+    {
+      "name": "com.bbt.authorization.interceptor.test-id",
+      "type": "java.lang.Long",
+      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor"
+    },
+    {
+      "name": "com.bbt.authorization.interceptor.test-num",
+      "type": "java.lang.String",
+      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor"
+    },
+    {
+      "name": "com.bbt.authorization.interceptor.unauthorized-error-code",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor"
+    },
+    {
+      "name": "com.bbt.authorization.interceptor.unauthorized-error-message",
+      "type": "java.lang.String",
+      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor"
+    }
+  ],
+  "hints": []
+}

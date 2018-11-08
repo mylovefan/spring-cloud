@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/user-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commom" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commom/authorization" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commom/framework-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commom/mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-share" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-share/cache-srv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-share/user-srv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/config-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/support/eureka-server" charset="UTF-8" />
+  </component>
+</project>

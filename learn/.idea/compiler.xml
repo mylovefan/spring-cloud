@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="authorization" />
+        <module name="cache-srv" />
+        <module name="config-service" />
+        <module name="eureka-server" />
+        <module name="framework-web" />
+        <module name="mybatis" />
+        <module name="user-api" />
+        <module name="user-srv" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="authorization" target="1.8" />
+      <module name="business" target="1.8" />
+      <module name="cache-srv" target="1.8" />
+      <module name="commom" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="config-service" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="framework-web" target="1.8" />
+      <module name="learn" target="1.8" />
+      <module name="mybatis" target="1.8" />
+      <module name="service-share" target="1.8" />
+      <module name="support" target="1.8" />
+      <module name="support (1)" target="1.5" />
+      <module name="user-api" target="1.8" />
+      <module name="user-srv" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

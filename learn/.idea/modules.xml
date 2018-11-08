@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/commom/authorization/authorization.iml" filepath="$PROJECT_DIR$/commom/authorization/authorization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/business.iml" filepath="$PROJECT_DIR$/business/business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-share/cache-srv/cache-srv.iml" filepath="$PROJECT_DIR$/service-share/cache-srv/cache-srv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commom/commom.iml" filepath="$PROJECT_DIR$/commom/commom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/common/common.iml" filepath="$PROJECT_DIR$/untitled/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/config-service/config-service.iml" filepath="$PROJECT_DIR$/support/config-service/config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/support/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commom/framework-web/framework-web.iml" filepath="$PROJECT_DIR$/commom/framework-web/framework-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn.iml" filepath="$PROJECT_DIR$/learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commom/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/commom/mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-share/service-share.iml" filepath="$PROJECT_DIR$/service-share/service-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/support.iml" filepath="$PROJECT_DIR$/support/support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support/support (1).iml" filepath="$PROJECT_DIR$/support/support (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/user-api/user-api.iml" filepath="$PROJECT_DIR$/business/user-api/user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-share/user-srv/user-srv.iml" filepath="$PROJECT_DIR$/service-share/user-srv/user-srv.iml" />
+    </modules>
+  </component>
+</project>
