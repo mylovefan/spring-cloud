@@ -44,6 +44,7 @@
       <module name="learn" target="1.8" />
       <module name="mybatis" target="1.8" />
       <module name="service-share" target="1.8" />
+      <module name="service-sys" target="1.8" />
       <module name="support" target="1.8" />
       <module name="support (1)" target="1.5" />
       <module name="user-api" target="1.8" />

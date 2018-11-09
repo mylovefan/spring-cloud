@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<!-- 打印查询语句 -->
+		<!-- SLF4J | LOG4J | LOG4J2 | JDK_LOGGING | COMMONS_LOGGING | STDOUT_LOGGING | NO_LOGGING-->
+		<setting name="logImpl" value="SLF4J" />
+	</settings>
+	<plugins>
+		<!-- 分页插件 -->
+		<plugin interceptor="com.bbt.mybatis.pagination.MySQLPaginationInterceptor" />
+	</plugins>
+</configuration>
+

@@ -1,0 +1,11 @@
+F:\work\spring-cloud\learn\commom\authorization\src\main\java\com\bbt\authorization\manager\impl\AbstractTokenManager.java
+F:\work\spring-cloud\learn\commom\authorization\src\main\java\com\bbt\authorization\interceptor\AuthorizationInterceptor.java
+F:\work\spring-cloud\learn\commom\authorization\src\main\java\com\bbt\authorization\manager\LoginTokenService.java
+F:\work\spring-cloud\learn\commom\authorization\src\main\java\com\bbt\authorization\annotation\Authorization.java
+F:\work\spring-cloud\learn\commom\authorization\src\main\java\com\bbt\authorization\manager\impl\CacheTokenManager.java
+F:\work\spring-cloud\learn\commom\authorization\src\main\java\com\bbt\authorization\manager\TokenManager.java
+F:\work\spring-cloud\learn\commom\authorization\src\main\java\com\bbt\authorization\manager\TokenCacheService.java
+F:\work\spring-cloud\learn\commom\authorization\src\main\java\com\bbt\authorization\constants\TokenClearType.java
+F:\work\spring-cloud\learn\commom\authorization\src\main\java\com\bbt\authorization\manager\impl\RedisTokenCacheServiceImpl.java
+F:\work\spring-cloud\learn\commom\authorization\src\main\java\com\bbt\authorization\util\UserUtil.java
+F:\work\spring-cloud\learn\commom\authorization\src\main\java\com\bbt\authorization\InterceptorConfig.java

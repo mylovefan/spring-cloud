@@ -1,0 +1,4 @@
+com\bbt\mybatis\generator\EshopCommentGenerator.class
+com\bbt\mybatis\plugin\OverIsMergeablePlugin.class
+com\bbt\mybatis\pagination\MySQLPaginationInterceptor.class
+com\bbt\mybatis\pagination\AbstractPaginationInterceptor.class

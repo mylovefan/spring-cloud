@@ -4,10 +4,12 @@ import com.bbt.authorization.annotation.Authorization;
 import com.bbt.authorization.manager.TokenManager;
 import com.bbt.authorization.util.UserUtil;
 import com.bbt.framework.web.BaseController;
+import com.bbt.framework.web.HttpCode;
 import com.bbt.framework.web.Result;
 import com.bbt.framework.web.constans.UserConstant;
 import com.bbt.user.api.result.TokenDTO;
 import com.bbt.user.api.result.UserDTO;
+import com.bbt.user.api.service.UserService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -28,10 +30,13 @@ public class UserController extends BaseController{
     @Autowired
     private TokenManager tokenManager;
 
+    @Autowired
+    private UserService userService;
+
     @SuppressWarnings("unchecked")
     @Authorization
     @ApiOperation(value = "查询用户信息", notes = "查询用户信息,[]（张荣成）", httpMethod = "GET")
-    @ApiResponse(code = 200, message = "success")
+    @ApiResponse(code = HttpCode.SC_OK, message = "success")
     @RequestMapping(value = "getUserInfo", method = RequestMethod.GET)
     public Result<UserDTO> getUserInfo(@RequestHeader(UserConstant.REQ_HEADER_TOKEN) String token, @RequestParam @ApiParam(required = true, value = "test") String str) {
         UserDTO userDTO = new UserDTO();
@@ -44,7 +49,7 @@ public class UserController extends BaseController{
 
     @SuppressWarnings("unchecked")
     @ApiOperation(value = "登录", notes = "login,[]（张荣成）", httpMethod = "GET")
-    @ApiResponse(code = 200, message = "success")
+    @ApiResponse(code = HttpCode.SC_OK, message = "success")
     @RequestMapping(value = "login", method = RequestMethod.GET)
     public Result<TokenDTO> login(@RequestParam @ApiParam(required = true, value = "account") String account,
                                   @RequestParam @ApiParam(required = true, value = "pwd") String pwd) {
@@ -54,6 +59,15 @@ public class UserController extends BaseController{
         tokenDTO.setToken(token);
         tokenDTO.setUserNum("T123456");
         return successGet(tokenDTO);
+    }
+
+
+    @ApiOperation(value = "注册", notes = "注册,[]（张荣成）", httpMethod = "POST")
+    @ApiResponse(code = HttpCode.SC_OK, message = "success")
+    @RequestMapping(value = "register", method = RequestMethod.POST)
+    public Result register(@RequestParam @ApiParam(required = true, value = "account") String account, @RequestParam @ApiParam(required = true, value = "pwd") String pwd) {
+        userService.register(account,pwd);
+        return successCreated();
     }
 
 

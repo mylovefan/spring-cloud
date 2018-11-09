@@ -14,12 +14,16 @@
     {
       "name": "com.bbt.authorization.interceptor.http-header-name",
       "type": "java.lang.String",
-      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor"
+      "description": "存放鉴权信息的Header名称，默认是Authorization",
+      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor",
+      "defaultValue": "Authorization"
     },
     {
       "name": "com.bbt.authorization.interceptor.http-header-prefix",
       "type": "java.lang.String",
-      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor"
+      "description": "鉴权信息的无用前缀，默认为空",
+      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor",
+      "defaultValue": ""
     },
     {
       "name": "com.bbt.authorization.interceptor.test-account",
@@ -39,12 +43,15 @@
     {
       "name": "com.bbt.authorization.interceptor.unauthorized-error-code",
       "type": "java.lang.Integer",
+      "description": "鉴权失败后返回的HTTP错误码，默认为401",
       "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor"
     },
     {
       "name": "com.bbt.authorization.interceptor.unauthorized-error-message",
       "type": "java.lang.String",
-      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor"
+      "description": "鉴权失败后返回的错误信息，默认为401 unauthorized",
+      "sourceType": "com.bbt.authorization.interceptor.AuthorizationInterceptor",
+      "defaultValue": "401 unauthorized"
     }
   ],
   "hints": []
