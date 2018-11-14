@@ -71,4 +71,13 @@ public class UserController extends BaseController{
     }
 
 
+    @ApiOperation(value = "es查询", notes = "es查询,[]（张荣成）", httpMethod = "GET")
+    @ApiResponse(code = HttpCode.SC_OK, message = "success")
+    @RequestMapping(value = "getUserById", method = RequestMethod.GET)
+    public Result<String> getUserById( @RequestParam @ApiParam(required = true, value = "id") Integer id) {
+        Result<String> result = userService.getUserById(id);
+        return successGet(result);
+    }
+
+
 }

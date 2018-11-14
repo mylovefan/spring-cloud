@@ -16,4 +16,8 @@ public interface UserService {
 
     @RequestMapping(value = "user/register", method = RequestMethod.GET)
     Result register(@RequestParam("account") String account, @RequestParam("pwd") String pwd);
+
+
+    @RequestMapping(value = "user/getUserById", method = RequestMethod.GET)
+    Result<String> getUserById(@RequestParam("id") Integer id);
 }
