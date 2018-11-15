@@ -3,6 +3,7 @@ package com.bbt.user.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.bbt.framework.web.BaseController;
 import com.bbt.framework.web.Result;
+import com.bbt.user.dto.UserDTO;
 import com.bbt.user.service.UserService;
 import com.bbt.user.util.PwdUtil;
 import org.apache.commons.lang.StringUtils;
@@ -127,8 +128,8 @@ public class UserController extends BaseController{
     }
 
     @RequestMapping(value = "query", method = RequestMethod.POST)
-    public Result<String> query(@RequestParam String author,@RequestParam String title,
-                                @RequestParam int gtWoedCount ,@RequestParam Integer ltWordCount) {
+    public Result<UserDTO> query(@RequestParam String author, @RequestParam String title,
+                                 @RequestParam int gtWoedCount , @RequestParam Integer ltWordCount) {
 
         BoolQueryBuilder booleanQuery = QueryBuilders.boolQuery();
         if(author !=null){

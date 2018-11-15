@@ -29,6 +29,7 @@
         <module name="framework-web" />
         <module name="mybatis" />
         <module name="user-api" />
+        <module name="user-dto" />
         <module name="user-srv" />
       </profile>
     </annotationProcessing>
@@ -39,6 +40,7 @@
       <module name="commom" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="config-service" target="1.8" />
+      <module name="dto" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="framework-web" target="1.8" />
       <module name="learn" target="1.8" />
@@ -48,6 +50,7 @@
       <module name="support" target="1.8" />
       <module name="support (1)" target="1.5" />
       <module name="user-api" target="1.8" />
+      <module name="user-dto" target="1.8" />
       <module name="user-srv" target="1.8" />
     </bytecodeTargetLevel>
   </component>

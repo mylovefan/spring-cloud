@@ -1,6 +1,7 @@
 package com.bbt.user.api.service;
 
 import com.bbt.framework.web.Result;
+import com.bbt.user.dto.UserDTO;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -24,4 +25,8 @@ public interface UserService {
 
     @RequestMapping(value = "user/saveUserEs", method = RequestMethod.POST)
     Result<String> saveUserEs(@RequestParam("account") String account,@RequestParam("pwd") String pwd);
+
+    @RequestMapping(value = "user/query", method = RequestMethod.GET)
+    Result<UserDTO> query(@RequestParam("author") String author, @RequestParam("title") String title,
+                          @RequestParam("gtWoedCount") int gtWoedCount , @RequestParam("ltWordCount") Integer ltWordCount);
 }

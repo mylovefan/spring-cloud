@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/commom/commom.iml" filepath="$PROJECT_DIR$/commom/commom.iml" />
       <module fileurl="file://$PROJECT_DIR$/untitled/common/common.iml" filepath="$PROJECT_DIR$/untitled/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/support/config-service/config-service.iml" filepath="$PROJECT_DIR$/support/config-service/config-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dto/dto.iml" filepath="$PROJECT_DIR$/dto/dto.iml" />
       <module fileurl="file://$PROJECT_DIR$/support/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/support/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/commom/framework-web/framework-web.iml" filepath="$PROJECT_DIR$/commom/framework-web/framework-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn.iml" filepath="$PROJECT_DIR$/learn.iml" />
@@ -17,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/support/support.iml" filepath="$PROJECT_DIR$/support/support.iml" />
       <module fileurl="file://$PROJECT_DIR$/support/support (1).iml" filepath="$PROJECT_DIR$/support/support (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/business/user-api/user-api.iml" filepath="$PROJECT_DIR$/business/user-api/user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dto/user-dto/user-dto.iml" filepath="$PROJECT_DIR$/dto/user-dto/user-dto.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-share/user-srv/user-srv.iml" filepath="$PROJECT_DIR$/service-share/user-srv/user-srv.iml" />
     </modules>
   </component>
