@@ -20,4 +20,8 @@ public interface UserService {
 
     @RequestMapping(value = "user/getUserById", method = RequestMethod.GET)
     Result<String> getUserById(@RequestParam("id") Integer id);
+
+
+    @RequestMapping(value = "user/saveUserEs", method = RequestMethod.POST)
+    Result<String> saveUserEs(@RequestParam("account") String account,@RequestParam("pwd") String pwd);
 }

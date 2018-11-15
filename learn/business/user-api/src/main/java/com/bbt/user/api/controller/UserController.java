@@ -80,4 +80,13 @@ public class UserController extends BaseController{
     }
 
 
+    @ApiOperation(value = "添加数据到ES", notes = "添加数据到ES,[]（张荣成）", httpMethod = "POST")
+    @ApiResponse(code = HttpCode.SC_OK, message = "success")
+    @RequestMapping(value = "saveUserEs", method = RequestMethod.POST)
+    public Result<String> saveUserEs(@RequestParam @ApiParam(required = true, value = "account") String account, @RequestParam @ApiParam(required = true, value = "pwd") String pwd) {
+        Result<String> result = userService.saveUserEs(account,pwd);
+        return successCreated(result);
+    }
+
+
 }
