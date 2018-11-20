@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/business" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/business/operate-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/business/user-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commom" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commom/authorization" charset="UTF-8" />
