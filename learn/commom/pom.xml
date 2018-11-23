@@ -15,6 +15,7 @@
         <module>authorization</module>
         <module>mybatis</module>
         <module>framework-web</module>
+        <module>concurrent-queue</module>
     </modules>
 
 

@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="authorization" />
         <module name="cache-srv" />
+        <module name="concurrent-queue" />
         <module name="config-service" />
         <module name="eureka-server" />
         <module name="framework-web" />
@@ -39,6 +40,7 @@
       <module name="business" target="1.8" />
       <module name="cache-srv" target="1.8" />
       <module name="commom" target="1.8" />
+      <module name="concurrent-queue" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="config-service" target="1.8" />
       <module name="dto" target="1.8" />

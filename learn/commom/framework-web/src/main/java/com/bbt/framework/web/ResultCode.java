@@ -7,6 +7,8 @@ package com.bbt.framework.web;
  */
 public class ResultCode extends BaseResultCode{
 
+    public static final int QUEUE_FAILED = 1033;
+
 
     public static final int USER_UNAUTHORIZED = 3000;
 
@@ -16,6 +18,9 @@ public class ResultCode extends BaseResultCode{
 
     // 初始化状态码与文字说明
     static {
+
+        messageMap.put(QUEUE_FAILED, "排队失败");
+
         messageMap.put(USER_UNAUTHORIZED, "未授权");
 
         messageMap.put(USER_ACCOUNT_DISABLE, "账号已被禁用");

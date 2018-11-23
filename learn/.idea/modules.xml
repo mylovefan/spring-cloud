@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/service-sys/cache-srv/cache-srv.iml" filepath="$PROJECT_DIR$/service-sys/cache-srv/cache-srv.iml" />
       <module fileurl="file://$PROJECT_DIR$/commom/commom.iml" filepath="$PROJECT_DIR$/commom/commom.iml" />
       <module fileurl="file://$PROJECT_DIR$/untitled/common/common.iml" filepath="$PROJECT_DIR$/untitled/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commom/concurrent-queue/concurrent-queue.iml" filepath="$PROJECT_DIR$/commom/concurrent-queue/concurrent-queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/support/config-service/config-service.iml" filepath="$PROJECT_DIR$/support/config-service/config-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/dto/dto.iml" filepath="$PROJECT_DIR$/dto/dto.iml" />
       <module fileurl="file://$PROJECT_DIR$/support/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/support/eureka-server/eureka-server.iml" />
