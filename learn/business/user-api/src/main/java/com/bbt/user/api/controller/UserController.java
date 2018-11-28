@@ -3,13 +3,17 @@ package com.bbt.user.api.controller;
 import com.bbt.authorization.annotation.Authorization;
 import com.bbt.authorization.manager.TokenManager;
 import com.bbt.authorization.util.UserUtil;
+import com.bbt.concurrentqueue.requestctrl.AbstractBaseConcurrentTask;
+import com.bbt.concurrentqueue.requestctrl.ConcurrentTaskExecutor;
 import com.bbt.framework.web.BaseController;
 import com.bbt.framework.web.HttpCode;
 import com.bbt.framework.web.Result;
 import com.bbt.framework.web.constans.UserConstant;
 import com.bbt.user.api.result.TokenDTO;
 import com.bbt.user.api.result.UserDTO;
+import com.bbt.user.api.service.UserExtendService;
 import com.bbt.user.api.service.UserService;
+import com.bbt.user.dto.OrderDTO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -32,6 +36,12 @@ public class UserController extends BaseController{
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private UserExtendService userExtendService;
+
+    @Autowired
+    private ConcurrentTaskExecutor concurrentTaskExecutor;
 
     @SuppressWarnings("unchecked")
     @Authorization
@@ -86,6 +96,26 @@ public class UserController extends BaseController{
     public Result<String> saveUserEs(@RequestParam @ApiParam(required = true, value = "account") String account, @RequestParam @ApiParam(required = true, value = "pwd") String pwd) {
         Result<String> result = userService.saveUserEs(account,pwd);
         return successCreated(result);
+    }
+
+
+    @ApiOperation(value = "并发组件测试", notes = "并发组件测试,[]（张荣成）", httpMethod = "PUT")
+    @ApiResponse(code = HttpCode.SC_OK, message = "success")
+    @RequestMapping(value = "createOrder/{id}", method = RequestMethod.PUT)
+    public Result<OrderDTO> createOrder(@PathVariable @ApiParam(required = true, value = "id") Long id) {
+        Result<OrderDTO> res = null;
+        res = (Result<OrderDTO>)concurrentTaskExecutor.execute(new AbstractBaseConcurrentTask<Result<OrderDTO>,Result<OrderDTO>>(){
+            @Override
+            public Result<OrderDTO> execute() {
+                return userExtendService.createOrder(id);
+            }
+
+            @Override
+            public Result<OrderDTO> executeWhenSuccess(Result<OrderDTO> successInfo) {
+                return successInfo;
+            }
+        });
+        return res;
     }
 
 

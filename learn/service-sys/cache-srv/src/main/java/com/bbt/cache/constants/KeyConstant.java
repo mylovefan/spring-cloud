@@ -21,4 +21,10 @@ public class KeyConstant {
      * token-删除原因
      */
     public static final String REDIS_TOKEN_CLEAR_PREFIX = "AUTH_TOKEN_DEL_";
+
+
+    /**
+     * 业务并发缓存
+     */
+    public static final String REDIS_KEY_BUSINESS_INVENTORY_SYN = "BUSINESS_INVENTORY_SYN_";
 }

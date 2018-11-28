@@ -1,6 +1,7 @@
 package com.bbt.concurrentqueue.requestctrl;
 
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.stereotype.Component;
 
 import java.util.concurrent.*;
 
@@ -9,6 +10,7 @@ import java.util.concurrent.*;
  * @Author:  zhangrc
  * @CreateDate:  2018/11/23 17:23
  */
+@Component
 public class ConcurrentTaskExecutor implements InitializingBean {
 
 
