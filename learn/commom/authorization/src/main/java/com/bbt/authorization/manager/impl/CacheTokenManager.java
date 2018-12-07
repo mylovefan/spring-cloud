@@ -38,4 +38,15 @@ public class CacheTokenManager extends AbstractTokenManager{
     protected String getAccountByToken(String token, boolean flushExpireAfterOperation) {
         return tokenCacheService.getAccount(token, flushExpireAfterOperation, tokenExpireSeconds, singleTokenWithUser);
     }
+
+    @Override
+    public void delRelationshipByToken(String token) {
+        tokenCacheService.delRelationshipByToken(token, singleTokenWithUser, tokenExpireSeconds);
+    }
+
+
+    @Override
+    protected void delSingleRelationshipByKey(String account, TokenClearType tokenClearType) {
+        tokenCacheService.delRelationshipByAccount(account, tokenExpireSeconds, tokenClearType);
+    }
 }

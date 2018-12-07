@@ -1,5 +1,7 @@
 package com.bbt.authorization.manager.impl;
 
+import com.bbt.authorization.constants.TokenClearType;
+import com.bbt.authorization.exception.MethodNotSupportException;
 import com.bbt.authorization.manager.TokenManager;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -72,6 +74,20 @@ public abstract class AbstractTokenManager implements TokenManager {
      */
     protected abstract String getAccountByToken(String token, boolean flushExpireAfterOperation);
 
+
+    @Override
+    public void delRelationship(String account, TokenClearType tokenClearType) {
+        //如果是多个Token关联同一个Key，不允许直接通过Key删除所有Token，防止误操作
+        if (!singleTokenWithUser) {
+            throw new MethodNotSupportException("非单客户端登录时无法调用该方法");
+        }
+        delSingleRelationshipByKey(account, tokenClearType);
+    }
+
+    /**
+     * 一个用户只能绑定一个Token时通过Key删除关联关系
+     */
+    protected abstract void delSingleRelationshipByKey(String account, TokenClearType tokenClearType);
 
 
     public int getTokenExpireSeconds() {

@@ -71,6 +71,15 @@ public class UserController extends BaseController{
         return successGet(tokenDTO);
     }
 
+    @SuppressWarnings("unchecked")
+    @ApiOperation(value = "退出", notes = "清除token,[]（张荣成）", httpMethod = "DELETE")
+    @ApiResponse(code = HttpCode.SC_OK, message = "success")
+    @RequestMapping(value = "logout", method = RequestMethod.DELETE)
+    public Result logout(@RequestHeader(UserConstant.REQ_HEADER_TOKEN) String token) {
+        tokenManager.delRelationshipByToken(token);
+        return successDelete();
+    }
+
 
     @ApiOperation(value = "注册", notes = "注册,[]（张荣成）", httpMethod = "POST")
     @ApiResponse(code = HttpCode.SC_OK, message = "success")

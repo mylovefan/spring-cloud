@@ -36,4 +36,18 @@ public interface TokenManager {
     TokenClearType getTokenClearType(String token);
 
 
+    /**
+     * 通过token删除关联关系
+     * @param token
+     */
+    void delRelationshipByToken(String token);
+
+    /**
+     * 通过key删除关联关系
+     * @param account
+     * @param tokenClearType
+     */
+    void delRelationship(String account, TokenClearType tokenClearType);
+
+
 }
