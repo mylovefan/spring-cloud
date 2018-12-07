@@ -29,4 +29,9 @@ public interface UserService {
     @RequestMapping(value = "user/query", method = RequestMethod.GET)
     Result<UserDTO> query(@RequestParam("author") String author, @RequestParam("title") String title,
                           @RequestParam("gtWoedCount") int gtWoedCount , @RequestParam("ltWordCount") Integer ltWordCount);
+
+
+    @RequestMapping(value = "user/createOrder", method = RequestMethod.GET)
+    Result createOrder(@RequestParam("id") Long id);
+
 }

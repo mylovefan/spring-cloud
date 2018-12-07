@@ -1,0 +1,3867 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.bbt.mq.TransactionProperties",
+      "sourceType": "com.bbt.mq.TransactionProperties"
+    },
+    {
+      "name": "bbt.mq.rocketmq",
+      "type": "com.alibaba.rocketmq.client.producer.DefaultMQProducer",
+      "sourceType": "com.bbt.mq.MQAutoConfiguration$RocketMQAutoConfiguration",
+      "sourceMethod": "defaultMQProducer()"
+    },
+    {
+      "name": "bbt.mq.rocketmq",
+      "type": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer",
+      "sourceType": "com.bbt.mq.MQAutoConfiguration$RocketMQAutoConfiguration",
+      "sourceMethod": "defaultMQPushConsumer()"
+    },
+    {
+      "name": "bbt.mq.rocketmq",
+      "type": "com.bbt.mq.message.MQConsumerFactory",
+      "sourceType": "com.bbt.mq.MQAutoConfiguration$RocketMQAutoConfiguration",
+      "sourceMethod": "defaultMQConsumerFactory()"
+    },
+    {
+      "name": "job",
+      "type": "com.bbt.mq.TransactionProperties$TransactionJob",
+      "sourceType": "com.bbt.mq.TransactionProperties",
+      "sourceMethod": "getJob()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.adjust-thread-pool-nums-threshold",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.allocate-message-queue-strategy",
+      "type": "com.alibaba.rocketmq.client.consumer.AllocateMessageQueueStrategy",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-concurrently-max-span",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-from-where",
+      "type": "com.alibaba.rocketmq.common.consumer.ConsumeFromWhere",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-message-batch-max-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-max",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-thread-min",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consume-timestamp",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.consumer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-listener",
+      "type": "com.alibaba.rocketmq.client.consumer.listener.MessageListener",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.message-model",
+      "type": "com.alibaba.rocketmq.common.protocol.heartbeat.MessageModel",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.offset-store",
+      "type": "com.alibaba.rocketmq.client.consumer.store.OffsetStore",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.post-subscription-when-pull",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-batch-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.pull-threshold-for-queue",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.subscription",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.topics-tags",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.bbt.mq.message.MQConsumerFactory"
+    },
+    {
+      "name": "bbt.mq.rocketmq.topics-tags",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.bbt.mq.message.MQConsumerFactory"
+    },
+    {
+      "name": "bbt.mq.rocketmq.topics-tags",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.bbt.mq.message.MQConsumerFactory"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.consumer.DefaultMQPushConsumer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "bbt.mq.rocketmq.unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "client-callback-executor-threads",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "client-i-p",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "compress-msg-body-over-howmuch",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "create-topic-key",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "default-topic-queue-nums",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "delete-record-time",
+      "type": "java.lang.Integer",
+      "description": "事务记录删除时间(单位:天)\n 30天两个月",
+      "sourceType": "com.bbt.mq.TransactionProperties",
+      "defaultValue": 30
+    },
+    {
+      "name": "execute-sql-statement",
+      "type": "java.lang.Boolean",
+      "description": "执行Sql语句",
+      "sourceType": "com.bbt.mq.TransactionProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "heartbeat-broker-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "instance-name",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "max-message-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "message-valid-time",
+      "type": "java.lang.Long",
+      "description": "MQ消息有效时间(单位:毫秒)\n 60秒",
+      "sourceType": "com.bbt.mq.TransactionProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "namesrv-addr",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "persist-consumer-offset-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "poll-name-server-inteval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "producer-group",
+      "type": "java.lang.String",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "retry-another-broker-when-not-store-o-k",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "retry-times-when-send-failed",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "send-msg-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    },
+    {
+      "name": "unit-mode",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.alibaba.rocketmq.client.producer.DefaultMQProducer"
+    }
+  ],
+  "hints": []
+}

@@ -36,6 +36,8 @@ public class EsConfig {
     @Bean
     public TransportClient client() throws UnknownHostException {
 
+        System.setProperty("es.set.netty.runtime.available.processors", "false");
+
         TransportAddress node = new TransportAddress(
                 InetAddress.getByName("localhost"),
                 9300

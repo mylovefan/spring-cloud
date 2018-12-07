@@ -28,8 +28,11 @@
         <module name="config-service" />
         <module name="eureka-server" />
         <module name="framework-web" />
+        <module name="mq" />
+        <module name="mq-dto" />
         <module name="mybatis" />
         <module name="operate-api" />
+        <module name="order-srv" />
         <module name="user-api" />
         <module name="user-dto" />
         <module name="user-srv" />
@@ -47,8 +50,11 @@
       <module name="eureka-server" target="1.8" />
       <module name="framework-web" target="1.8" />
       <module name="learn" target="1.8" />
+      <module name="mq" target="1.8" />
+      <module name="mq-dto" target="1.8" />
       <module name="mybatis" target="1.8" />
       <module name="operate-api" target="1.8" />
+      <module name="order-srv" target="1.8" />
       <module name="service-share" target="1.8" />
       <module name="service-sys" target="1.8" />
       <module name="support" target="1.8" />

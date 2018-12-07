@@ -14,4 +14,11 @@ public interface UserService {
      * @param pwd
      */
     void register(String account,String pwd);
+
+    /**
+     * 用户下单事物测试
+     *
+     * @param id
+     */
+    void createOrder(Long id);
 }

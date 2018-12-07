@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bbt.mq.mapper.extend.TransactionRecordDOExtendMapper">
+    <delete id="deleteExpiredRecords">
+        DELETE FROM transaction_record WHERE id IN (
+            SELECT id FROM (
+                SELECT id FROM transaction_record WHERE is_processed=1 AND gmt_create &lt;= #{deleteRecordDate,jdbcType=TIMESTAMP} LIMIT 0, 100
+            ) AS temp
+        )
+    </delete>
+</mapper>

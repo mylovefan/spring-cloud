@@ -13,8 +13,11 @@
       <module fileurl="file://$PROJECT_DIR$/support/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/support/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/commom/framework-web/framework-web.iml" filepath="$PROJECT_DIR$/commom/framework-web/framework-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn.iml" filepath="$PROJECT_DIR$/learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commom/mq/mq.iml" filepath="$PROJECT_DIR$/commom/mq/mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dto/mq-dto/mq-dto.iml" filepath="$PROJECT_DIR$/dto/mq-dto/mq-dto.iml" />
       <module fileurl="file://$PROJECT_DIR$/commom/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/commom/mybatis/mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/business/operate-api/operate-api.iml" filepath="$PROJECT_DIR$/business/operate-api/operate-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-share/order-srv/order-srv.iml" filepath="$PROJECT_DIR$/service-share/order-srv/order-srv.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-share/service-share.iml" filepath="$PROJECT_DIR$/service-share/service-share.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-sys/service-sys.iml" filepath="$PROJECT_DIR$/service-sys/service-sys.iml" />
       <module fileurl="file://$PROJECT_DIR$/support/support.iml" filepath="$PROJECT_DIR$/support/support.iml" />

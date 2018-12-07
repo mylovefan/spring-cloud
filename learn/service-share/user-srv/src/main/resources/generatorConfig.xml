@@ -22,8 +22,8 @@
         </commentGenerator>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://192.168.1.199:3308/test?useUnicode=true&amp;characterEncoding=UTF-8"
-                        userId="szbbt" password="szbbt">
+                        connectionURL="jdbc:mysql://database.cfg39fwhp3rw.ap-southeast-2.rds.amazonaws.com/springCloud?useUnicode=true&amp;characterEncoding=UTF-8"
+                        userId="zhangrc" password="zrc9312041234">
         </jdbcConnection>
 
         <javaTypeResolver>

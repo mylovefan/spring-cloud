@@ -9,10 +9,13 @@
     <file url="file://$PROJECT_DIR$/commom/authorization" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commom/concurrent-queue" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commom/framework-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commom/mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/commom/mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dto" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dto/mq-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dto/user-dto" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-share" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-share/order-srv" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-share/user-srv" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-sys" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-sys/cache-srv" charset="UTF-8" />

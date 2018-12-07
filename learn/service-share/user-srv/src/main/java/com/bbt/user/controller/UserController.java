@@ -162,4 +162,11 @@ public class UserController extends BaseController{
         return null;
     }
 
+
+    @RequestMapping(value = "createOrder", method = RequestMethod.GET)
+    public Result createOrder(@RequestParam Long id) {
+        userService.createOrder(id);
+        return successCreated();
+    }
+
 }

@@ -11,7 +11,7 @@ import org.springframework.util.StringUtils;
 /**
  * @Description: 描述
  * @Author:  zhangrc
- * @CreateDate:  2018/11/28 14:23
+ * @CreateDate:  2018/11/28 15:10
  */
 public class InventoryCacheManager {
 

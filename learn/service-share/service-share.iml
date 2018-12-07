@@ -42,7 +42,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.inject:guice:4.1.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: aopalliance:aopalliance:1.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.6" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.6" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.eureka:eureka-core:1.6.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.4.1" level="project" />
@@ -138,8 +137,8 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.4.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.40" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:4.3.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.3.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.elasticsearch.client:transport:6.4.3" level="project" />
     <orderEntry type="library" name="Maven: org.elasticsearch:elasticsearch:6.4.3" level="project" />
     <orderEntry type="library" name="Maven: org.elasticsearch:elasticsearch-core:6.4.3" level="project" />
@@ -216,5 +215,12 @@
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.6" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:1.3.2" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis.generator:mybatis-generator-core:1.3.6" level="project" />
+    <orderEntry type="module" module-name="mq" />
+    <orderEntry type="library" name="Maven: com.alibaba.rocketmq:rocketmq-client:3.2.6" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.rocketmq:rocketmq-common:3.2.6" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba.rocketmq:rocketmq-remoting:3.2.6" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.0.25.Final" level="project" />
+    <orderEntry type="module" module-name="mq-dto" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.6" level="project" />
   </component>
 </module>

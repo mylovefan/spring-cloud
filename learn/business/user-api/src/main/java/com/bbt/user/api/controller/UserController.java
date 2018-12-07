@@ -80,6 +80,14 @@ public class UserController extends BaseController{
         return successCreated();
     }
 
+    @ApiOperation(value = "mq测试", notes = "mq测试,[]（张荣成）", httpMethod = "GET")
+    @ApiResponse(code = HttpCode.SC_OK, message = "success")
+    @RequestMapping(value = "user/createOrderById", method = RequestMethod.GET)
+    Result createOrderById(@RequestParam  @ApiParam(required = true, value = "id") Long id){
+        userService.createOrder(id);
+        return successCreated();
+    }
+
 
     @ApiOperation(value = "es查询", notes = "es查询,[]（张荣成）", httpMethod = "GET")
     @ApiResponse(code = HttpCode.SC_OK, message = "success")
@@ -117,6 +125,9 @@ public class UserController extends BaseController{
         });
         return res;
     }
+
+
+
 
 
 }

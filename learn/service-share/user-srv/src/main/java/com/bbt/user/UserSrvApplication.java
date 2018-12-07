@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.ComponentScan;
 
 @EnableEurekaClient
-@MapperScan({"com.bbt.user.mapper"})
+@MapperScan({"com.bbt.user.mapper","com.bbt.mq.mapper"})
 @ComponentScan({"com.bbt"})
 @SpringBootApplication
 public class UserSrvApplication {
