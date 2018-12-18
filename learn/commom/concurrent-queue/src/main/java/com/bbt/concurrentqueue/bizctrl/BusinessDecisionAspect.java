@@ -92,9 +92,9 @@ public class BusinessDecisionAspect implements ApplicationContextAware {
             businessInventorySynService.increaseInventory(businessDecisionService, businessKey, businessId);
             return  businessDecisionService.fail(new BusinessExecuteException(e));
         }finally {
-            /*if (isLock) {
+            if (isLock) {
                 lockService.unLock(lockKey);
-            }*/
+            }
         }
 
 
