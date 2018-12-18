@@ -27,7 +27,11 @@
             <artifactId>spring-boot-starter-redis</artifactId>
             <scope>provided</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>3.9.1</version>
+        </dependency>
         <dependency>
             <groupId>com.bbt.learn</groupId>
             <artifactId>framework-web</artifactId>

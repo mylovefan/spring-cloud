@@ -1,6 +1,7 @@
 package com.bbt.concurrentqueue.bizctrl;
 
 import com.bbt.concurrentqueue.bizctrl.annotation.BusinessInventoryCtrl;
+import com.bbt.concurrentqueue.lock.service.LockService;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -38,6 +39,9 @@ public class BusinessDecisionAspect implements ApplicationContextAware {
     @Autowired
     private BusinessInventorySynService businessInventorySynService;
 
+    @Autowired
+    private LockService lockService;
+
     /**
      * 找到注解
      */
@@ -68,6 +72,14 @@ public class BusinessDecisionAspect implements ApplicationContextAware {
 
         if (!isSuccess) {
             return businessDecisionService.sellOut();
+        }
+
+        String lockKey = LOCK_KEY.concat(businessKey).concat("_").concat(businessId.toString());
+        if (isLock) {
+            boolean lock = lockService.tryLock(1000, 5000, lockKey);
+            if (!lock) {
+                return businessDecisionService.fail(new BusinessExecuteException());
+            }
         }
 
         try {

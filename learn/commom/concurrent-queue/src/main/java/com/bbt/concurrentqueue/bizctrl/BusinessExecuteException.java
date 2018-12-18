@@ -28,6 +28,10 @@ public class BusinessExecuteException extends RuntimeException{
         super(cause);
     }
 
+    public BusinessExecuteException() {
+        super();
+    }
+
 
     public int getRet() {
         return ret;
